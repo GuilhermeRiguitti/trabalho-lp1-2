@@ -1,8 +1,6 @@
 import express, { Request, Response } from "express"
-import { AddressInfo } from "net";
 import cors from "cors";
 import dotenv from "dotenv";
-import { generateId } from "./idGenerator";
 import connection from "./connection";
 import { ProdutoCarrinho } from "./model/produtoCarrinho";
 import { HashGenerator } from "./hashManager";
